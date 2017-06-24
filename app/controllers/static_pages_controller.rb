@@ -4,4 +4,11 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+  
+  def keyboard
+  end
+  
+  def gate
+  end
+  
 end
