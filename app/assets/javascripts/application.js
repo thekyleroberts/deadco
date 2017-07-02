@@ -14,5 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-//= require 'greensock/TweenLite'
-//= require 'greensock/easing/EasePack'
+// require 'greensock/TweenLite'
+// require 'greensock/easing/EasePack'
+
+//= require bootstrap-sprockets

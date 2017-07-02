@@ -11,4 +11,10 @@ class StaticPagesController < ApplicationController
   def gate
   end
   
+  def clock
+  end
+  
+  def site
+  end
+  
 end
