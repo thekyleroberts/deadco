@@ -21,6 +21,8 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+# Faker for seeding data
+gem 'faker', '~> 1.7', '>= 1.7.3'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

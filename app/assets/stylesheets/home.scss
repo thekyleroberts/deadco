@@ -1,15 +1,59 @@
-#main-div {
-    text-align: center;
+.hero {
+    background-image: url(office_building.jpg);
+    background-size:cover;
+    background-position: center center;
+    min-height:70vh;
+}
+    /**
+    background-size:cover;
+    background-position:center 0;
+    padding-top:270px;
+    overflow:hidden;
+    position:relative;
+    min-height:70vh**/
+
+
+
+/**
+
+.header-hero--larger {
+    min-height:100vh;
+    padding-top:290px
 }
 
-.yellow {
-    background: yellow;
+.header-hero--light {
+    background-image:url(../images/unsplash/jorg-angeli-220264.jpg);
+    border-bottom:1px solid #dee4ea
 }
 
-.red {
-    background: red;
+.header-hero--light:after {
+        background:rgba(249,251,255,.25)!important
 }
 
-.green {
-    background: green;
+.header-hero .container {
+    position:relative;z-index:10
 }
+
+.header-hero:after {
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    background:linear-gradient(-45deg,rgba(63,89,118,.3) 0,rgba(14,20,34,.5) 80%)
+}
+
+.header-hero h2 {
+    color:#fff;
+    padding-bottom:60px
+}
+
+.blog-header {
+    min-height:400px;
+    background-image:url(../images/unsplash/photo-1442965416224-f6a7eca980fa.jpg);
+    background-size:cover;
+    background-position:center center;
+    position:relative
+}
+**/

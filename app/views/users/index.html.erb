@@ -1,0 +1,22 @@
+<h1>Listing Users</h1>
+ 
+<table>
+  <tr>
+    <th>Name:  </th>
+    <th>E-mail:  </th>
+  </tr>
+ 
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.name %></td>
+      <td><%= user.email %></td>
+      <td><%= render partial:"shared/scoreboard", object: @user %></td>
+      <td><%= link_to 'Show', user_path(user) %></td>
+      <td><%= link_to 'Edit', edit_user_path(user) %></td>
+      <td><%= link_to 'Destroy', user_path(user),
+                      method: :delete,
+                      data: { confirm: "Are you sure you 
+                        want to make a bad decision?" } %></td>
+    </tr>
+  <% end %>
+</table>

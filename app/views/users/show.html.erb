@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-sm-6">
+            <p>
+              <strong>Name:</strong>
+                  <%= @user.name %>
+            </p>
+             
+            <p>
+              <strong>Email:</strong>
+              <%= @user.email %>
+            </p>
+            
+            <div>
+                <%= render partial:"shared/scoreboard", object: @user %>
+            </div>
+                
+            
+            <%= link_to 'Edit', edit_user_path(@user) %> |
+            <%= link_to 'Back', users_path %>
+        </div>
+    </div>
+</div>

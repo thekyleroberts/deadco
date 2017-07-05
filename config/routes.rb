@@ -9,5 +9,10 @@ Rails.application.routes.draw do
   get 'static_pages/help'
   get 'static_pages/clock'
   get 'static_pages/site'
-    
+  
+  # Simple User for JSon test
+  resources :users do
+    resources :stats
+  end
+  
 end
