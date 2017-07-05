@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'static_pages/help'
   get 'static_pages/clock'
   get 'static_pages/site'
+  get 'static_pages/rankings'
   
   # Simple User for JSon test
   resources :users do
